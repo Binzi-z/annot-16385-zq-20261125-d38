@@ -1,0 +1,9 @@
+{
+  "total_records": 50000,
+  "revoked_scanner": "scanner-3",
+  "incremental_touched": 6250,
+  "incremental_accesses": 6250,
+  "full_accesses": 50000,
+  "sets_equal": true,
+  "access_count_matches_touch": true
+}

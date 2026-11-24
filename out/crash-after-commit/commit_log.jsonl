@@ -1,0 +1,5 @@
+{"kind": "scan", "payload": {"digest": "ba03b1d95412c945ea16e6eab9614db799ae90a09eac6aaf4765bb82036edbba", "passed": true, "policy_version": "p1", "scanner": "scanner-A", "trust_gen": 1}, "seq": 1}
+{"kind": "approval", "payload": {"controller": "alice", "digest": "ba03b1d95412c945ea16e6eab9614db799ae90a09eac6aaf4765bb82036edbba", "policy_version": "p1"}, "seq": 2}
+{"kind": "approval", "payload": {"controller": "bob", "digest": "ba03b1d95412c945ea16e6eab9614db799ae90a09eac6aaf4765bb82036edbba", "policy_version": "p1"}, "seq": 3}
+{"kind": "release_commit", "payload": {"digest": "ba03b1d95412c945ea16e6eab9614db799ae90a09eac6aaf4765bb82036edbba", "policy_version": "p1"}, "seq": 4}
+{"kind": "receipt_restored", "payload": {"commit_seq": 4, "digest": "ba03b1d95412c945ea16e6eab9614db799ae90a09eac6aaf4765bb82036edbba"}, "seq": 5}

@@ -1,0 +1,12 @@
+{"kind": "scan", "payload": {"digest": "697560f6a0b82bffb8c393b792144de4eaa1ee4304a5669344133032d3cdba6b", "passed": true, "policy_version": "p1", "scanner": "scanner-A", "trust_gen": 1}, "seq": 1}
+{"kind": "approval", "payload": {"controller": "alice", "digest": "697560f6a0b82bffb8c393b792144de4eaa1ee4304a5669344133032d3cdba6b", "policy_version": "p1"}, "seq": 2}
+{"kind": "approval", "payload": {"controller": "bob", "digest": "697560f6a0b82bffb8c393b792144de4eaa1ee4304a5669344133032d3cdba6b", "policy_version": "p1"}, "seq": 3}
+{"kind": "release_commit", "payload": {"digest": "697560f6a0b82bffb8c393b792144de4eaa1ee4304a5669344133032d3cdba6b", "policy_version": "p1"}, "seq": 4}
+{"kind": "release_receipt", "payload": {"commit_seq": 4, "digest": "697560f6a0b82bffb8c393b792144de4eaa1ee4304a5669344133032d3cdba6b"}, "seq": 5}
+{"kind": "trust_rotation", "payload": {"trusted_gens": [2]}, "seq": 6}
+{"kind": "scan", "payload": {"digest": "284891586cffcc1bb6b115a2d443088fa92aac7e23b8b9045037b9f17ed0e592", "passed": true, "policy_version": "p1", "scanner": "scanner-A", "trust_gen": 1}, "seq": 7}
+{"kind": "approval", "payload": {"controller": "alice", "digest": "284891586cffcc1bb6b115a2d443088fa92aac7e23b8b9045037b9f17ed0e592", "policy_version": "p1"}, "seq": 8}
+{"kind": "approval", "payload": {"controller": "bob", "digest": "284891586cffcc1bb6b115a2d443088fa92aac7e23b8b9045037b9f17ed0e592", "policy_version": "p1"}, "seq": 9}
+{"kind": "scan", "payload": {"digest": "284891586cffcc1bb6b115a2d443088fa92aac7e23b8b9045037b9f17ed0e592", "passed": true, "policy_version": "p1", "scanner": "scanner-B", "trust_gen": 2}, "seq": 10}
+{"kind": "release_commit", "payload": {"digest": "284891586cffcc1bb6b115a2d443088fa92aac7e23b8b9045037b9f17ed0e592", "policy_version": "p1"}, "seq": 11}
+{"kind": "release_receipt", "payload": {"commit_seq": 11, "digest": "284891586cffcc1bb6b115a2d443088fa92aac7e23b8b9045037b9f17ed0e592"}, "seq": 12}

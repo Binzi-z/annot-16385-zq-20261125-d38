@@ -1,0 +1,82 @@
+{
+  "basic": {
+    "artifact1": {
+      "digest": "697560f6a0b82bffb8c393b792144de4eaa1ee4304a5669344133032d3cdba6b",
+      "commit_seq": 4,
+      "receipt_seq": 5
+    },
+    "artifact2": {
+      "digest": "284891586cffcc1bb6b115a2d443088fa92aac7e23b8b9045037b9f17ed0e592",
+      "old_gen_scan_outcome": "denied:untrusted-generation",
+      "commit_seq_after_rotation": 11
+    }
+  },
+  "race_revoke_first": {
+    "release_result": [
+      "denied",
+      "scanner-revoked"
+    ],
+    "revocation_seq": 4,
+    "commit_seq": null,
+    "proc_log_order": [
+      "scan ba03b1d9 scanner=scanner-A gen=1",
+      "approve ba03b1d9 by alice",
+      "approve ba03b1d9 by bob",
+      "release start ba03b1d9",
+      "revoke scanner-A"
+    ],
+    "in_quarantine": true,
+    "in_released": false
+  },
+  "race_release_first": {
+    "release_result": [
+      "committed",
+      4
+    ],
+    "revocation_seq": 6,
+    "commit_seq": 4,
+    "proc_log_order": [
+      "scan ba03b1d9 scanner=scanner-A gen=1",
+      "approve ba03b1d9 by alice",
+      "approve ba03b1d9 by bob",
+      "release start ba03b1d9",
+      "revoke scanner-A"
+    ],
+    "in_quarantine": false,
+    "in_released": true
+  },
+  "crash_after_move": {
+    "digest": "ba03b1d95412c945ea16e6eab9614db799ae90a09eac6aaf4765bb82036edbba",
+    "back_in_quarantine": true,
+    "recovery_log": [
+      {
+        "seq": 4,
+        "kind": "quarantined",
+        "payload": {
+          "digest": "ba03b1d95412c945ea16e6eab9614db799ae90a09eac6aaf4765bb82036edbba",
+          "cause": "moved-without-commit"
+        }
+      }
+    ]
+  },
+  "crash_after_commit": {
+    "digest": "ba03b1d95412c945ea16e6eab9614db799ae90a09eac6aaf4765bb82036edbba",
+    "original_commit_seq": 4,
+    "receipt_restored_ref": 4,
+    "re_release_returned_seq": 4,
+    "no_new_commit": true
+  },
+  "model": {
+    "states": 108,
+    "mismatches": 0
+  },
+  "scale": {
+    "total_records": 50000,
+    "revoked_scanner": "scanner-3",
+    "incremental_touched": 6250,
+    "incremental_accesses": 6250,
+    "full_accesses": 50000,
+    "sets_equal": true,
+    "access_count_matches_touch": true
+  }
+}

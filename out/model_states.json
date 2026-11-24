@@ -1,0 +1,1658 @@
+[
+  {
+    "scan_gen": null,
+    "trusted_gens": [
+      1
+    ],
+    "approvals": [],
+    "revocation": "none",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": null,
+    "trusted_gens": [
+      1
+    ],
+    "approvals": [],
+    "revocation": "before_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": null,
+    "trusted_gens": [
+      1
+    ],
+    "approvals": [],
+    "revocation": "after_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": null,
+    "trusted_gens": [
+      1
+    ],
+    "approvals": [
+      "alice"
+    ],
+    "revocation": "none",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": null,
+    "trusted_gens": [
+      1
+    ],
+    "approvals": [
+      "alice"
+    ],
+    "revocation": "before_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": null,
+    "trusted_gens": [
+      1
+    ],
+    "approvals": [
+      "alice"
+    ],
+    "revocation": "after_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": null,
+    "trusted_gens": [
+      1
+    ],
+    "approvals": [
+      "alice",
+      "alice"
+    ],
+    "revocation": "none",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": null,
+    "trusted_gens": [
+      1
+    ],
+    "approvals": [
+      "alice",
+      "alice"
+    ],
+    "revocation": "before_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": null,
+    "trusted_gens": [
+      1
+    ],
+    "approvals": [
+      "alice",
+      "alice"
+    ],
+    "revocation": "after_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": null,
+    "trusted_gens": [
+      1
+    ],
+    "approvals": [
+      "alice",
+      "bob"
+    ],
+    "revocation": "none",
+    "expected_outcome": "denied",
+    "expected_reason": "no-scan",
+    "actual_outcome": "denied",
+    "actual_reason": "no-scan",
+    "match": true
+  },
+  {
+    "scan_gen": null,
+    "trusted_gens": [
+      1
+    ],
+    "approvals": [
+      "alice",
+      "bob"
+    ],
+    "revocation": "before_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "no-scan",
+    "actual_outcome": "denied",
+    "actual_reason": "no-scan",
+    "match": true
+  },
+  {
+    "scan_gen": null,
+    "trusted_gens": [
+      1
+    ],
+    "approvals": [
+      "alice",
+      "bob"
+    ],
+    "revocation": "after_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "no-scan",
+    "actual_outcome": "denied",
+    "actual_reason": "no-scan",
+    "match": true
+  },
+  {
+    "scan_gen": null,
+    "trusted_gens": [
+      2
+    ],
+    "approvals": [],
+    "revocation": "none",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": null,
+    "trusted_gens": [
+      2
+    ],
+    "approvals": [],
+    "revocation": "before_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": null,
+    "trusted_gens": [
+      2
+    ],
+    "approvals": [],
+    "revocation": "after_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": null,
+    "trusted_gens": [
+      2
+    ],
+    "approvals": [
+      "alice"
+    ],
+    "revocation": "none",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": null,
+    "trusted_gens": [
+      2
+    ],
+    "approvals": [
+      "alice"
+    ],
+    "revocation": "before_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": null,
+    "trusted_gens": [
+      2
+    ],
+    "approvals": [
+      "alice"
+    ],
+    "revocation": "after_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": null,
+    "trusted_gens": [
+      2
+    ],
+    "approvals": [
+      "alice",
+      "alice"
+    ],
+    "revocation": "none",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": null,
+    "trusted_gens": [
+      2
+    ],
+    "approvals": [
+      "alice",
+      "alice"
+    ],
+    "revocation": "before_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": null,
+    "trusted_gens": [
+      2
+    ],
+    "approvals": [
+      "alice",
+      "alice"
+    ],
+    "revocation": "after_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": null,
+    "trusted_gens": [
+      2
+    ],
+    "approvals": [
+      "alice",
+      "bob"
+    ],
+    "revocation": "none",
+    "expected_outcome": "denied",
+    "expected_reason": "no-scan",
+    "actual_outcome": "denied",
+    "actual_reason": "no-scan",
+    "match": true
+  },
+  {
+    "scan_gen": null,
+    "trusted_gens": [
+      2
+    ],
+    "approvals": [
+      "alice",
+      "bob"
+    ],
+    "revocation": "before_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "no-scan",
+    "actual_outcome": "denied",
+    "actual_reason": "no-scan",
+    "match": true
+  },
+  {
+    "scan_gen": null,
+    "trusted_gens": [
+      2
+    ],
+    "approvals": [
+      "alice",
+      "bob"
+    ],
+    "revocation": "after_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "no-scan",
+    "actual_outcome": "denied",
+    "actual_reason": "no-scan",
+    "match": true
+  },
+  {
+    "scan_gen": null,
+    "trusted_gens": [
+      1,
+      2
+    ],
+    "approvals": [],
+    "revocation": "none",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": null,
+    "trusted_gens": [
+      1,
+      2
+    ],
+    "approvals": [],
+    "revocation": "before_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": null,
+    "trusted_gens": [
+      1,
+      2
+    ],
+    "approvals": [],
+    "revocation": "after_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": null,
+    "trusted_gens": [
+      1,
+      2
+    ],
+    "approvals": [
+      "alice"
+    ],
+    "revocation": "none",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": null,
+    "trusted_gens": [
+      1,
+      2
+    ],
+    "approvals": [
+      "alice"
+    ],
+    "revocation": "before_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": null,
+    "trusted_gens": [
+      1,
+      2
+    ],
+    "approvals": [
+      "alice"
+    ],
+    "revocation": "after_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": null,
+    "trusted_gens": [
+      1,
+      2
+    ],
+    "approvals": [
+      "alice",
+      "alice"
+    ],
+    "revocation": "none",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": null,
+    "trusted_gens": [
+      1,
+      2
+    ],
+    "approvals": [
+      "alice",
+      "alice"
+    ],
+    "revocation": "before_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": null,
+    "trusted_gens": [
+      1,
+      2
+    ],
+    "approvals": [
+      "alice",
+      "alice"
+    ],
+    "revocation": "after_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": null,
+    "trusted_gens": [
+      1,
+      2
+    ],
+    "approvals": [
+      "alice",
+      "bob"
+    ],
+    "revocation": "none",
+    "expected_outcome": "denied",
+    "expected_reason": "no-scan",
+    "actual_outcome": "denied",
+    "actual_reason": "no-scan",
+    "match": true
+  },
+  {
+    "scan_gen": null,
+    "trusted_gens": [
+      1,
+      2
+    ],
+    "approvals": [
+      "alice",
+      "bob"
+    ],
+    "revocation": "before_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "no-scan",
+    "actual_outcome": "denied",
+    "actual_reason": "no-scan",
+    "match": true
+  },
+  {
+    "scan_gen": null,
+    "trusted_gens": [
+      1,
+      2
+    ],
+    "approvals": [
+      "alice",
+      "bob"
+    ],
+    "revocation": "after_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "no-scan",
+    "actual_outcome": "denied",
+    "actual_reason": "no-scan",
+    "match": true
+  },
+  {
+    "scan_gen": 1,
+    "trusted_gens": [
+      1
+    ],
+    "approvals": [],
+    "revocation": "none",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": 1,
+    "trusted_gens": [
+      1
+    ],
+    "approvals": [],
+    "revocation": "before_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": 1,
+    "trusted_gens": [
+      1
+    ],
+    "approvals": [],
+    "revocation": "after_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": 1,
+    "trusted_gens": [
+      1
+    ],
+    "approvals": [
+      "alice"
+    ],
+    "revocation": "none",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": 1,
+    "trusted_gens": [
+      1
+    ],
+    "approvals": [
+      "alice"
+    ],
+    "revocation": "before_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": 1,
+    "trusted_gens": [
+      1
+    ],
+    "approvals": [
+      "alice"
+    ],
+    "revocation": "after_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": 1,
+    "trusted_gens": [
+      1
+    ],
+    "approvals": [
+      "alice",
+      "alice"
+    ],
+    "revocation": "none",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": 1,
+    "trusted_gens": [
+      1
+    ],
+    "approvals": [
+      "alice",
+      "alice"
+    ],
+    "revocation": "before_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": 1,
+    "trusted_gens": [
+      1
+    ],
+    "approvals": [
+      "alice",
+      "alice"
+    ],
+    "revocation": "after_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": 1,
+    "trusted_gens": [
+      1
+    ],
+    "approvals": [
+      "alice",
+      "bob"
+    ],
+    "revocation": "none",
+    "expected_outcome": "released",
+    "expected_reason": null,
+    "actual_outcome": "released",
+    "actual_reason": null,
+    "match": true
+  },
+  {
+    "scan_gen": 1,
+    "trusted_gens": [
+      1
+    ],
+    "approvals": [
+      "alice",
+      "bob"
+    ],
+    "revocation": "before_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "scanner-revoked",
+    "actual_outcome": "denied",
+    "actual_reason": "scanner-revoked",
+    "match": true
+  },
+  {
+    "scan_gen": 1,
+    "trusted_gens": [
+      1
+    ],
+    "approvals": [
+      "alice",
+      "bob"
+    ],
+    "revocation": "after_commit",
+    "expected_outcome": "released",
+    "expected_reason": null,
+    "actual_outcome": "released",
+    "actual_reason": null,
+    "match": true
+  },
+  {
+    "scan_gen": 1,
+    "trusted_gens": [
+      2
+    ],
+    "approvals": [],
+    "revocation": "none",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": 1,
+    "trusted_gens": [
+      2
+    ],
+    "approvals": [],
+    "revocation": "before_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": 1,
+    "trusted_gens": [
+      2
+    ],
+    "approvals": [],
+    "revocation": "after_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": 1,
+    "trusted_gens": [
+      2
+    ],
+    "approvals": [
+      "alice"
+    ],
+    "revocation": "none",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": 1,
+    "trusted_gens": [
+      2
+    ],
+    "approvals": [
+      "alice"
+    ],
+    "revocation": "before_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": 1,
+    "trusted_gens": [
+      2
+    ],
+    "approvals": [
+      "alice"
+    ],
+    "revocation": "after_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": 1,
+    "trusted_gens": [
+      2
+    ],
+    "approvals": [
+      "alice",
+      "alice"
+    ],
+    "revocation": "none",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": 1,
+    "trusted_gens": [
+      2
+    ],
+    "approvals": [
+      "alice",
+      "alice"
+    ],
+    "revocation": "before_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": 1,
+    "trusted_gens": [
+      2
+    ],
+    "approvals": [
+      "alice",
+      "alice"
+    ],
+    "revocation": "after_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": 1,
+    "trusted_gens": [
+      2
+    ],
+    "approvals": [
+      "alice",
+      "bob"
+    ],
+    "revocation": "none",
+    "expected_outcome": "denied",
+    "expected_reason": "untrusted-generation",
+    "actual_outcome": "denied",
+    "actual_reason": "untrusted-generation",
+    "match": true
+  },
+  {
+    "scan_gen": 1,
+    "trusted_gens": [
+      2
+    ],
+    "approvals": [
+      "alice",
+      "bob"
+    ],
+    "revocation": "before_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "untrusted-generation",
+    "actual_outcome": "denied",
+    "actual_reason": "untrusted-generation",
+    "match": true
+  },
+  {
+    "scan_gen": 1,
+    "trusted_gens": [
+      2
+    ],
+    "approvals": [
+      "alice",
+      "bob"
+    ],
+    "revocation": "after_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "untrusted-generation",
+    "actual_outcome": "denied",
+    "actual_reason": "untrusted-generation",
+    "match": true
+  },
+  {
+    "scan_gen": 1,
+    "trusted_gens": [
+      1,
+      2
+    ],
+    "approvals": [],
+    "revocation": "none",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": 1,
+    "trusted_gens": [
+      1,
+      2
+    ],
+    "approvals": [],
+    "revocation": "before_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": 1,
+    "trusted_gens": [
+      1,
+      2
+    ],
+    "approvals": [],
+    "revocation": "after_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": 1,
+    "trusted_gens": [
+      1,
+      2
+    ],
+    "approvals": [
+      "alice"
+    ],
+    "revocation": "none",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": 1,
+    "trusted_gens": [
+      1,
+      2
+    ],
+    "approvals": [
+      "alice"
+    ],
+    "revocation": "before_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": 1,
+    "trusted_gens": [
+      1,
+      2
+    ],
+    "approvals": [
+      "alice"
+    ],
+    "revocation": "after_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": 1,
+    "trusted_gens": [
+      1,
+      2
+    ],
+    "approvals": [
+      "alice",
+      "alice"
+    ],
+    "revocation": "none",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": 1,
+    "trusted_gens": [
+      1,
+      2
+    ],
+    "approvals": [
+      "alice",
+      "alice"
+    ],
+    "revocation": "before_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": 1,
+    "trusted_gens": [
+      1,
+      2
+    ],
+    "approvals": [
+      "alice",
+      "alice"
+    ],
+    "revocation": "after_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": 1,
+    "trusted_gens": [
+      1,
+      2
+    ],
+    "approvals": [
+      "alice",
+      "bob"
+    ],
+    "revocation": "none",
+    "expected_outcome": "released",
+    "expected_reason": null,
+    "actual_outcome": "released",
+    "actual_reason": null,
+    "match": true
+  },
+  {
+    "scan_gen": 1,
+    "trusted_gens": [
+      1,
+      2
+    ],
+    "approvals": [
+      "alice",
+      "bob"
+    ],
+    "revocation": "before_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "scanner-revoked",
+    "actual_outcome": "denied",
+    "actual_reason": "scanner-revoked",
+    "match": true
+  },
+  {
+    "scan_gen": 1,
+    "trusted_gens": [
+      1,
+      2
+    ],
+    "approvals": [
+      "alice",
+      "bob"
+    ],
+    "revocation": "after_commit",
+    "expected_outcome": "released",
+    "expected_reason": null,
+    "actual_outcome": "released",
+    "actual_reason": null,
+    "match": true
+  },
+  {
+    "scan_gen": 2,
+    "trusted_gens": [
+      1
+    ],
+    "approvals": [],
+    "revocation": "none",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": 2,
+    "trusted_gens": [
+      1
+    ],
+    "approvals": [],
+    "revocation": "before_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": 2,
+    "trusted_gens": [
+      1
+    ],
+    "approvals": [],
+    "revocation": "after_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": 2,
+    "trusted_gens": [
+      1
+    ],
+    "approvals": [
+      "alice"
+    ],
+    "revocation": "none",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": 2,
+    "trusted_gens": [
+      1
+    ],
+    "approvals": [
+      "alice"
+    ],
+    "revocation": "before_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": 2,
+    "trusted_gens": [
+      1
+    ],
+    "approvals": [
+      "alice"
+    ],
+    "revocation": "after_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": 2,
+    "trusted_gens": [
+      1
+    ],
+    "approvals": [
+      "alice",
+      "alice"
+    ],
+    "revocation": "none",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": 2,
+    "trusted_gens": [
+      1
+    ],
+    "approvals": [
+      "alice",
+      "alice"
+    ],
+    "revocation": "before_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": 2,
+    "trusted_gens": [
+      1
+    ],
+    "approvals": [
+      "alice",
+      "alice"
+    ],
+    "revocation": "after_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": 2,
+    "trusted_gens": [
+      1
+    ],
+    "approvals": [
+      "alice",
+      "bob"
+    ],
+    "revocation": "none",
+    "expected_outcome": "denied",
+    "expected_reason": "untrusted-generation",
+    "actual_outcome": "denied",
+    "actual_reason": "untrusted-generation",
+    "match": true
+  },
+  {
+    "scan_gen": 2,
+    "trusted_gens": [
+      1
+    ],
+    "approvals": [
+      "alice",
+      "bob"
+    ],
+    "revocation": "before_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "untrusted-generation",
+    "actual_outcome": "denied",
+    "actual_reason": "untrusted-generation",
+    "match": true
+  },
+  {
+    "scan_gen": 2,
+    "trusted_gens": [
+      1
+    ],
+    "approvals": [
+      "alice",
+      "bob"
+    ],
+    "revocation": "after_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "untrusted-generation",
+    "actual_outcome": "denied",
+    "actual_reason": "untrusted-generation",
+    "match": true
+  },
+  {
+    "scan_gen": 2,
+    "trusted_gens": [
+      2
+    ],
+    "approvals": [],
+    "revocation": "none",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": 2,
+    "trusted_gens": [
+      2
+    ],
+    "approvals": [],
+    "revocation": "before_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": 2,
+    "trusted_gens": [
+      2
+    ],
+    "approvals": [],
+    "revocation": "after_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": 2,
+    "trusted_gens": [
+      2
+    ],
+    "approvals": [
+      "alice"
+    ],
+    "revocation": "none",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": 2,
+    "trusted_gens": [
+      2
+    ],
+    "approvals": [
+      "alice"
+    ],
+    "revocation": "before_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": 2,
+    "trusted_gens": [
+      2
+    ],
+    "approvals": [
+      "alice"
+    ],
+    "revocation": "after_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": 2,
+    "trusted_gens": [
+      2
+    ],
+    "approvals": [
+      "alice",
+      "alice"
+    ],
+    "revocation": "none",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": 2,
+    "trusted_gens": [
+      2
+    ],
+    "approvals": [
+      "alice",
+      "alice"
+    ],
+    "revocation": "before_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": 2,
+    "trusted_gens": [
+      2
+    ],
+    "approvals": [
+      "alice",
+      "alice"
+    ],
+    "revocation": "after_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": 2,
+    "trusted_gens": [
+      2
+    ],
+    "approvals": [
+      "alice",
+      "bob"
+    ],
+    "revocation": "none",
+    "expected_outcome": "released",
+    "expected_reason": null,
+    "actual_outcome": "released",
+    "actual_reason": null,
+    "match": true
+  },
+  {
+    "scan_gen": 2,
+    "trusted_gens": [
+      2
+    ],
+    "approvals": [
+      "alice",
+      "bob"
+    ],
+    "revocation": "before_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "scanner-revoked",
+    "actual_outcome": "denied",
+    "actual_reason": "scanner-revoked",
+    "match": true
+  },
+  {
+    "scan_gen": 2,
+    "trusted_gens": [
+      2
+    ],
+    "approvals": [
+      "alice",
+      "bob"
+    ],
+    "revocation": "after_commit",
+    "expected_outcome": "released",
+    "expected_reason": null,
+    "actual_outcome": "released",
+    "actual_reason": null,
+    "match": true
+  },
+  {
+    "scan_gen": 2,
+    "trusted_gens": [
+      1,
+      2
+    ],
+    "approvals": [],
+    "revocation": "none",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": 2,
+    "trusted_gens": [
+      1,
+      2
+    ],
+    "approvals": [],
+    "revocation": "before_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": 2,
+    "trusted_gens": [
+      1,
+      2
+    ],
+    "approvals": [],
+    "revocation": "after_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": 2,
+    "trusted_gens": [
+      1,
+      2
+    ],
+    "approvals": [
+      "alice"
+    ],
+    "revocation": "none",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": 2,
+    "trusted_gens": [
+      1,
+      2
+    ],
+    "approvals": [
+      "alice"
+    ],
+    "revocation": "before_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": 2,
+    "trusted_gens": [
+      1,
+      2
+    ],
+    "approvals": [
+      "alice"
+    ],
+    "revocation": "after_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": 2,
+    "trusted_gens": [
+      1,
+      2
+    ],
+    "approvals": [
+      "alice",
+      "alice"
+    ],
+    "revocation": "none",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": 2,
+    "trusted_gens": [
+      1,
+      2
+    ],
+    "approvals": [
+      "alice",
+      "alice"
+    ],
+    "revocation": "before_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": 2,
+    "trusted_gens": [
+      1,
+      2
+    ],
+    "approvals": [
+      "alice",
+      "alice"
+    ],
+    "revocation": "after_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "approvals",
+    "actual_outcome": "denied",
+    "actual_reason": "approvals",
+    "match": true
+  },
+  {
+    "scan_gen": 2,
+    "trusted_gens": [
+      1,
+      2
+    ],
+    "approvals": [
+      "alice",
+      "bob"
+    ],
+    "revocation": "none",
+    "expected_outcome": "released",
+    "expected_reason": null,
+    "actual_outcome": "released",
+    "actual_reason": null,
+    "match": true
+  },
+  {
+    "scan_gen": 2,
+    "trusted_gens": [
+      1,
+      2
+    ],
+    "approvals": [
+      "alice",
+      "bob"
+    ],
+    "revocation": "before_commit",
+    "expected_outcome": "denied",
+    "expected_reason": "scanner-revoked",
+    "actual_outcome": "denied",
+    "actual_reason": "scanner-revoked",
+    "match": true
+  },
+  {
+    "scan_gen": 2,
+    "trusted_gens": [
+      1,
+      2
+    ],
+    "approvals": [
+      "alice",
+      "bob"
+    ],
+    "revocation": "after_commit",
+    "expected_outcome": "released",
+    "expected_reason": null,
+    "actual_outcome": "released",
+    "actual_reason": null,
+    "match": true
+  }
+]
